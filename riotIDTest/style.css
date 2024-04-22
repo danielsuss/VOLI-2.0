@@ -1,0 +1,45 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  background-color: #393847; /* Adjust the color to match your specific blue */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background: #3C3B54; /* Same as the container for seamless integration */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Spacing between form elements */
+}
+
+.login-form input[type="text"] {
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  background: transparent;
+  color: white;
+}
+
+.login-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #6C63FF; /* Adjust the color to match your specific button blue */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #5750D2; /* Darker shade for hover effect */
+}

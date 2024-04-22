@@ -1,0 +1,13 @@
+.verificationCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center children vertically in the flex container */
+    align-items: center; /* Center children horizontally in the flex container */
+    width: 100%;
+    height: 100vh;
+    /* Add the following styles */
+    position: absolute; /* or fixed if you want it to stay in the center even when scrolling */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

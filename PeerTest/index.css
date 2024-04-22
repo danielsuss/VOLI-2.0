@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A2E; /* Dark blue background */
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  .circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+  }
+
+  .disconnected {
+    border: 5px solid red;
+    background-color: #4b4b4b; /* Dark gray */
+  }
+
+  .connected {
+    border: 5px solid cyan;
+    background-color: #4b4b4b; /* Dark gray */
+  }
+
+  .audioDetected {
+    border: 5px solid lime;
+    background-color: #4b4b4b; /* Dark gray */
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    background-color: #333; /* Lighter gray */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

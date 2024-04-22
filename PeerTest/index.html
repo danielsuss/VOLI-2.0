@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Connection Page</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="remote" class="circle disconnected"></div>
+  <div id="local" class="circle disconnected"></div>
+  <div class="buttons">
+    <button id="call" class="button">create call</button>
+    <button id="connect" class="button">connect</button>
+    <button id="microphone" class="button">microphone on</button>
+  </div>
+  <div class="simulation">
+    <button id="remoteConnect" class="button">connect remote</button>
+    <input id="callCode" type="text" class="text">
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js"></script>
+  <script type="module" src="index.js"></script>
+</body>
+</html>

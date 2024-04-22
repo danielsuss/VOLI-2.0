@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Connection Page</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="remote" class="circle disconnected"></div>
+  <div id="local" class="circle disconnected"></div>
+  <div class="buttons">
+    <button id="connect" class="button">connect</button>
+    <button id="microphone" class="button">microphone on</button>
+  </div>
+  <div class="simulation">
+    <input id="callCode" type="text" class="text">
+  </div>
+  <audio id="localAudio" autoplay></audio>
+  <audio id="remoteAudio" autoplay></audio>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
